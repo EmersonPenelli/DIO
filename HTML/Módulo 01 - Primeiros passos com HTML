@@ -7,7 +7,7 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2>Índice</h2>
@@ -39,6 +39,8 @@
         </ul></p>
 
         <h2 id="tags-comentario"><u>Tags de comentários em HTML</u></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        
         <p> Dentro de um documento, muitas vezes precisamos fazer comentários, para facilitar no desenvolvimento. Com isso, o código fica mais organizado e podemos deixar anotações importantes para possíveis mudanças, ou apenas para orientar o código. 
             Dessa forma, na tag de comentários (que é aberta com &lt e fechada com &gt ), todos elementos incluídos dentro dela serão apenas comentários, ou seja, não serão visíveis no navegador.
             
@@ -54,6 +56,8 @@
         Pratique utilizar os comentários em seu código, isso é uma boa prática e muito recomendada dentro do mundo do desenvolvimento.</p>
 
     <h2 id="html-estrutural"><u>Tags HTML estruturais</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
     <p>As tags abaixo são utilizadas nos documentos em HTML5, e têm função estrutural no seu código. Portanto, essas tags têm grande importância na questão semântica da sua página, saber utilizá-las pode adequar o seu código para uma melhor visualização por parte do navegador e do usuário, além de proporcionar uma otimização para os processos de SEO.
 
         <ul>
@@ -68,6 +72,7 @@
         </ul>
 
     <h2 id="html-conteudo"><u>A tags HTML de conteúdo</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
     <p>As tags de título possuem valor semântico, variando entre seis níveis hierárquicos. Para fins de otimização SEO é importante entender como funcionam, e fazer uma utilização adequada. Para definir títulos, utilizamos as tags:</p>
 
         <ul>
