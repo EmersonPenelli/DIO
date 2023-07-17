@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
 
+    <h2>Índice</h2>
+    <p><strong><u>Tags HTML: as principais tags para sua página HTML</u> </strong></p>
+    <ul>
+        <li><a href="#tags-html">O que são tags HTML?</a></li>
+        <li><a href="#estrutura-html">Estrutura básica de um documento HTML</a></li>
+        <li><a href="#tags-comentario">Tags de comentários em HTML</a></li>
+        <li><a href="#html-estrutural">Tags HTML estruturais</a></li>
+        <li><a href="#html-conteudo">As Tags HTML de conteúdo</a></li>
+    </ul>
+
+    <h2 id="tags-html"><u>O que são tags HTML?</u></h2>
+    <p>As tags HTML são usadas para definir a estrutura de um site. Elas são interpretadas pelo navegador e determinam a aparência visual da página. As tags são sempre colocadas entre sinais de chevron (< >). 
+        Existem dois tipos de tags HTML: as que precisam ser fechadas com uma tag de fechamento <strong>&lt/tag&gt</strong> e as que não precisam de fechamento e têm a estrutura <strong> &lttag/&gt </strong>. 
+        As tags também podem ter atributos, que modificam sua estrutura ou funcionalidade.</p>
+    
+
+    <h2 id="estrutura-html"><u>Estrutura básica de um documento HTML</u></h2>
+    <p>Um documento HTML recebe algumas tags que formam a sua estrutura básica. No HTML5, o documento padrão recebe a seguinte estrutura:
+
+        <ul>
+            <li><strong>&lt!DOCTYPE html&gt </strong> - A tag <strong>!DOCTYPE</strong> informa ao navegador a versão do HTML que está sendo utilizada no documento. Por exemplo: no HTML5, basta incluir !DOCTYPE html, e assim o navegador já saberá que se trata de um documento na versão HTML5.</li>
+            <li><strong>&lthtml&gt</strong> - Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os elementos do seu documento. Todo documento HTML deve iniciar e finalizar com essa tag.</li>
+            <li><strong>&lthead&gt</strong> - Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível, porém é capaz de transmitir ao navegador diversas informações muito úteis e essenciais a uma boa apresentação do seu documento HTML.</li>
+            <li><strong>&lttitle&gt</strong> -Essa tag define o título da sua página, o nome que aparecerá na sua aba, janela ou guia. Por esta razão, a tag >title> é de grande importância para o SEO.</li>
+            <li><strong>&ltmeta/&gt </strong>- Essa tag permite inserir metadados ao seu documento, no caso acima, a informação charset=”UTF-8″, que garante a compatibilidade do código com os caracteres de padrão latino americano.</li>
+            <li><strong>&ltbody&gt</strong> - Finalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos os elementos visíveis do seu site devem ser inseridos.</li>
+        </ul></p>
+
+        <h2 id="tags-comentario"><u>Tags de comentários em HTML</u></h2>
+        <p> Dentro de um documento, muitas vezes precisamos fazer comentários, para facilitar no desenvolvimento. Com isso, o código fica mais organizado e podemos deixar anotações importantes para possíveis mudanças, ou apenas para orientar o código. 
+            Dessa forma, na tag de comentários (que é aberta com &lt e fechada com &gt ), todos elementos incluídos dentro dela serão apenas comentários, ou seja, não serão visíveis no navegador.
+            
+        <br><i><strong>ex:</strong></i>
+        
+        <strong>&lt!-- Meu comentário em HTML --&gt</strong>
+        
+
+        <p>Olá Mundo</p> &lt!-- aqui é o meu paragrafo--&gt
+        
+        Como resultado final no navegador, teremos: Olá Mundo.
+        Repare que todo conteúdo das tags de comentário não aparecerá, sendo restrito apenas a quem estiver lendo o seu código HTML. 
+        Pratique utilizar os comentários em seu código, isso é uma boa prática e muito recomendada dentro do mundo do desenvolvimento.</p>
+
+    <h2 id="html-estrutural"><u>Tags HTML estruturais</u></h2>
+    <p>As tags abaixo são utilizadas nos documentos em HTML5, e têm função estrutural no seu código. Portanto, essas tags têm grande importância na questão semântica da sua página, saber utilizá-las pode adequar o seu código para uma melhor visualização por parte do navegador e do usuário, além de proporcionar uma otimização para os processos de SEO.
+
+        <ul>
+            <li>&ltheader&gt &lt/header&gt - Tags definem um cabeçalho. Portanto, todo conteúdo que estiver dentro dela faz parte de um cabeçalho, podendo ser utilizado dentro de outras sessões. <br> <strong>*Não confundir com as tags &lthead&gt.</strong></li> 
+            <li>&ltmain&gt &lt/main&gt - Essas tags representam o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação.</li>
+            <li>&ltfooter&gt  &lt/footer&gt - Essas tags definem um rodapé para a página, geralmente utilizadas no final da página.</li>
+            <li>&ltsection&gt  &lt/section&gt - Essas tags definem uma sessão para sua página.</li>
+            <li>&ltarticle&gt  &lt/article&gt - Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo.</li>
+            <li>&ltaside&gt  &lt/aside&gt - Essas tags representam uma seção de uma página cujo conteúdo é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo.</li>
+            <li>&ltnav&gt  &lt/nav&gt - Essa tag define um conteúdo de navegação. Portanto, é muito utilizado em conjunto com listas e na criação de menus.</li>
+            <li>&ltdiv&gt   &lt/div&gt - Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das categorias acima.</li>
+        </ul>
+
+    <h2 id="html-conteudo"><u>A tags HTML de conteúdo</u></h2>
+    <p>As tags de título possuem valor semântico, variando entre seis níveis hierárquicos. Para fins de otimização SEO é importante entender como funcionam, e fazer uma utilização adequada. Para definir títulos, utilizamos as tags:</p>
+
+        <ul>
+            <li>&lth1&gt  &lt/h1&gt - Título de maior valor hierárquico</li>
+            <li>&lth2&gt  &lt/h2&gt</li>
+            <li> &lth3&gt  &lt/h3&gt</li>
+            <li>&lth4&gt  &lt/h4&gt</li>
+            <li>&lth5&gt  &lt/h5&gt</li>
+            <li> &lth6&gt  &lt/h6&gt - Título de menor valor hierárquico</li>
+        </ul>
+        Conforme dito anteriormente, a distribuição de título interferem no otimização do SEO de uma página.  Com isso, uma página contendo apenas h1 não seria bem vista pelos mecanismos de busca. Portanto, é importante dividir os títulos deixando o h1 apenas para o título principal, h2 ou h3 para títulos das seções e h4 a h6 para subtítulos ou títulos que possuam baixo valor hierárquico em relação aos demais.</p>
+
+    <h3><i>Links de referências</i></h3>
+    
+    <ul>
+        <li><a href="https://www.homehost.com.br/blog/tutoriais/tags-html/#topico05">https://www.homehost.com.br/blog/tutoriais/tags-html/#topico05</a></li>
+        <li><a href="https://pt.semrush.com/blog/tags-html/">https://pt.semrush.com/blog/tags-html/</a></li>
+    </ul>
+
+</body>
+</html>
