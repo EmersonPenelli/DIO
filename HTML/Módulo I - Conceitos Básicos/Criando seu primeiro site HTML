@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica - Página Principal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="clinica.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header" id="home">
+                <img src="clinica_medica4.jpg" alt="Clínica Médica" class="header-image"/>
+            </div>
+    
+            <div class="content">
+                <h1><u>Bem-vindo à Clínica Médica </u></h1>
+                <p>Oferecemos uma clínica dedicada ao atendimento exclusivo e cuidados de qualidade para você e sua família. Compreendemos que escolher a especialidade médica certa pode ser uma tarefa difícil, por isso, gostaríamos de abordar a área da clínica médica em particular.
+
+                    Vamos discutir sobre a rotina dessa especialidade, suas diversas áreas de atuação e como o mercado de trabalho se apresenta, visando esclarecer todas as suas dúvidas e tornar a sua decisão mais fácil.
+                    
+                    A residência em clínica médica é o programa de residência que oferece o maior número de vagas e é altamente competitiva no Brasil, atraindo muitos candidatos.
+                    
+                    Além disso, essa especialização oferece um amplo campo de atuação, sendo também um pré-requisito para a maioria das sub-especialidades clínicas.</p>
+            </div>
+    
+            <div class="footer">
+                <p>Telefone: (11) 1234-5678 | E-mail: contato@clinica.com.br</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
