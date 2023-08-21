@@ -14,4 +14,6 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 Links úteis
 
 [Download do NVDA] (https://www.nvaccess.org/download/)
+
+
 [Wikipedia] (https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal)
