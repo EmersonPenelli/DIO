@@ -12,5 +12,6 @@ Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quisere
 Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
 
 Links úteis
+
 Download do NVDA
 Wikipedia
