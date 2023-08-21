@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.listamenu, .listamenu ul li { list-style: none; padding-left: 5px; }
+li.a {list-style-type: none;}
+        
+a { color: rgb(19, 0, 128); text-decoration: none;}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    background-color: #081335;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px; 
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+.row-table {
+    background-color: #265877;
+    text-align: center;
+    color: white;
+}
+
+.row-table-2 {
+    background-color: #a6c0cf;
+}
+
+.row-table-3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.row-table-3 li {
+    text-align: left; 
+    margin: 5px 0;
+}
+
+.table-lateral {
+    width: 240px;
+    border: 1px solid;
+}
+
+mark {
+    background-color: rgb(17, 9, 61);
+    color: white;
+}
+
+.tabpersonagens tr:nth-child(even) td {
+    background-color: rgb(245, 234, 255);
+}
+
+.tabpersonagens tr:hover td {
+    background-color: rgb(128, 129, 177);
+}
+
+.iframe-youtube, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-des {
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.form-buscar, form input {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+
+.header {
+    background-color: #05151f;
+    width: 100%;
+}
+
+.container {
+    max-width: 1450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 70%;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #2d397c, #081335);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 45px;
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
